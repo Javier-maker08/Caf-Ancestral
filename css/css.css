@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #AE6F0F;
+}
+.menu{
+ width: 38%;
+ margin-left: 600px;
+padding-top: 10px;
+}
+.menu ul{
+  list-style: none;
+  display: flex;
+}
+.menu li{
+  width: 100px;
+  height: 25px;
+  background-color: #823406;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 12px;
+}
+.menu li a {
+  color: white;
+  font-family: arial;
+
+}
+.Banner_Prin{
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+.Banner_Prin img{
+  width: 100%;
+  height: 100%;
+}
+.DivOF{
+  width: 62%;
+  height: 400px;
+  margin: auto;
+  justify-content: space-between;
+}
+.cuadro1{
+  width: 49%;
+  height: 100%;
+  background-color: #823406;
+  float: left;
+  margin: auto;
+}
+.cuadro1 img{
+  width: 100%;
+  height: 80%;
+}
+.cuadro1 h1{
+  color: white;
+  margin-top: 18px;
+}
+.cuadro2{
+  width: 49%;
+  height: 100%;
+  background-color: #823406;
+  float: left;
+  margin: auto;
+  margin-left: 2%;
+}
+.cuadro2 img{
+  width: 100%;
+  height: 80%;
+}
+.cuadro2 h1{
+  color: white;
+  margin-top: 18px;
+}
+.DivSnd{
+  width: 62%;
+  height: 400px;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 50px;
+}
+.cuadro3{
+  width: 32.5%;
+  height: 100%;
+  float: left;
+  background-image: url(../imagenes/catacion.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+.boton{
+  width: 45%;
+  height: 45px;
+  background-color: #823406;
+  border-radius: 15px;
+  margin-top: 320px;
+}
+.boton p{
+  font-size: 20px;
+  font-family: arial;
+  color: white;
+  padding-top: 10px;
+}
+.cuadro4{
+  width: 32.5%;
+  height: 100%;
+  float: left;
+  margin-left: 1.25%;
+  background-image: url(../imagenes/corte.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+.cuadro5{
+  width: 32.5%;
+  height: 100%;
+  float: left;
+  margin-left: 1.25%;
+  background-image: url(../imagenes/bloom.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+.DivTrc{
+  width: 40%;
+  height: 200px;
+  margin: auto;
+  margin-top: 30px;
+  background-image: url(../imagenes/cafefrio.png);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+}
+.botonterc{
+  width: 25%;
+  height: 45px;
+  background-color: #823406;
+  border-radius: 15px;
+  margin: auto;
+}
+.botonterc p{
+  font-size: 20px;
+  font-family: arial;
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+.DivMP4{
+  width: 100%;
+  height: 400px;
+  background-color: #AE6F0F;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+.CajaParrafo{
+  width: 30%;
+  height: 67%;
+  color: white;
+  float: left;
+  margin-top: 70px;
+  margin-left: 20%;
+}
+
+.CajaParrafo h2{
+font-size: 30px;
+font-family: arial;
+}
+.CajaParrafo p{
+  font-size: 22px;
+  font-family: arial;
+  margin-top: 110px;
+
+}
+.CajaVideo{
+  width: 20%;
+  height: 67%;
+  float: left;
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.video{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+footer{
+  width: 100%;
+  height: 130px;
+  background-color:#724408;
+  justify-content: space-between;
+}
+.CajaDesc{
+  width: 30%;
+  height: 67%;
+  color: white;
+  float: left;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+.CajaDesc p{
+  font-size: 20px;
+  font-family: arial;
+}
+.CajaRedes{
+  width: 12%;
+  height: 60%;
+  float: left;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.iconIG{
+  margin-left: 15px;
+}
+@media only screen and (max-width:768px){
+  .menu{
+    display: none;
+  }
+}
