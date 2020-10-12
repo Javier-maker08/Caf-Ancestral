@@ -264,7 +264,155 @@ footer{
   margin-left: 15px;
 }
 @media only screen and (max-width:768px){
+  header{
+    width: 100%;
+  }
+  .cajaLogo{
+    display: block;
+    width: 120px;
+  }
+  header label{
+    display: block;
+    margin-left: 82%;
+  }
+  .btn-menu{
+    width: 70%;
+    height: 70%;
+    margin-top: 10%;
+  }
   .menu{
+    position: absolute;
+    width: 70%;
+    margin-left: -70%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  .menu ul{
+    flex-direction: column;
+  }
+  .menu ul li{
+    padding-top: 10px;
+  }
+  #btn-menu:checked ~ .menu{
+    margin: 0;
+  }
+  .DivOF{
+    width: 95%;
+    height: 210px;
+    margin-top: 20px;
+  }
+  .DivOF h1{
+    font-size: 17px;
+    text-align:center;
+  }
+  .DivSnd{
+    width: 95%;
+    height: 300px;
+  }
+  .cuadro3{
+    width: 49%;
+    background-image: url(../imagenes/catacion.png);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+  }
+  .boton{
+    width: 45%;
+    height: 45px;
+    background-color: #823406;
+    border-radius: 15px;
+    margin-top: 230px;
+  }
+  .boton p{
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+    padding-top: 10px;
+  }
+  .cuadro4{
+    width: 49%;
+    background-image: url(../imagenes/corte.png);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    margin-left: 2%;
+  }
+  .cuadro5{
     display: none;
+  }
+  .cuadro6{
+    display: block;
+    width: 95%;
+    height: 230px;
+  }
+  .boton6{
+    width: 120px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 150px;
+  }
+  .DivTrc{
+    display: block;
+    width: 95%;
+    height: 230px;
+  }
+  .botonterc{
+    width: 120px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: 150px;
+  }
+  .DivMP4{
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+  }
+  .CajaParrafo{
+    width: 35%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .CajaParrafo h2{
+    font-size: 20px;
+  }
+  .CajaParrafo p{
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .CajaVideo{
+    width: 25%;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 30px;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    justify-content: space-between;
+  }
+  .CajaDesc{
+    width: 35%;
+    height: 60%;
+    margin-top: 30px;
+  }
+  .CajaDesc p{
+    font-size: 10px;
+  }
+  .CajaRedes{
+    width: 25%;
+    height: 40%;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .iconFB{
+    width: 40%;
+    height: 100%;
+    float: left;
+  }
+  .iconIG{
+    width: 40%;
+    height: 100%;
+    margin-left: 10px;
   }
 }
